@@ -2,6 +2,7 @@
 
 /**
  * main - main block
+ * description: prints alphabet (a-z) excepts 'q' and 'e'
  * Return: 0
  */
 int main(void)
@@ -14,8 +15,9 @@ while (ch <= 'z')
 if (ch != 'q' && ch != 'e')
 {
 putchar(ch);
-ch++;
 }
+
+ch++;
 
 }
 
