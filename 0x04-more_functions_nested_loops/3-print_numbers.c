@@ -2,15 +2,18 @@
 
 /**
  * print_numbers - print the numbers from 0 to 9
- * @c: You can only use _putchar twice
+ * description: You can only use _putchar twice
  */
 void print_numbers(void)
 {
-char c;
+int i;
+i = 0;
 
-for (c = '0'; c <= '9'; c++)
+while (i < 10)
 {
-_putchar(c);
+_putchar(i + '0');
+
+i++;
 }
 
 _putchar('\n');
