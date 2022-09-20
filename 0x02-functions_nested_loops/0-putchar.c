@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * main - main block
  * description: prints the word "_putchar"
@@ -17,5 +16,5 @@ _putchar(word[i]);
 
 _putchar('\n');
 
-return (0);
+return 0;
 }
