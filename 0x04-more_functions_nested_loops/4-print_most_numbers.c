@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
  * print_most_numbers - Print numbers 0 to 9, excluding 2 and 4.
- * @c: do not print 2 and 4
- * @c: Can only use _putchar twice.
+ * nb1: do not print 2 and 4
+ * nb2: Can only use _putchar twice.
  */
 void print_most_numbers(void)
 {
