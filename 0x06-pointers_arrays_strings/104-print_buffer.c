@@ -18,13 +18,13 @@ if (j <= s)
 {
 printf("%02x", c[l * 10 + j]);
 }
-else if (j % 2)
-{
-putchar(' ');
-}
 else
 {
 printf("  ");
+}
+if (j % 2)
+{
+putchar(' ');
 }
 }
 
