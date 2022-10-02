@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * main - print all arguments it receives
- * @argc: argument count
- * @argv: argument vector, array of strings
+ * @argc: number of arguments
+ * @argv: array of arguments
  * Return: 0
  */
 

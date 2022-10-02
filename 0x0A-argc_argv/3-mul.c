@@ -3,8 +3,8 @@
 #include "main.h"
 /**
  * main - multiply 2 numbers passed to main, or Error
- * @argc: argument count
- * @argv: argument vector
+ * @argc: number of arguments
+ * @argv: array of argument
  * Return: 1 if error, 0 if function runs correctly
  */
 
