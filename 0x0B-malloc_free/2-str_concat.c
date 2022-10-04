@@ -42,6 +42,8 @@ len2++;
 len2 ++;
 }
 
+S = (char *)malloc(sizeof(char) * (len1 + len2));
+
 while (s1[i] != '\0')
 {
 s3[i] = s1[i];
@@ -54,15 +56,6 @@ s3 = s2[i + j];
 j++;
 }
 
-if (s3 == NULL)
-{
-return (NULL);
-}
-else
-{
-S = (char *)malloc(sizeof(char) * (len1 + len2));
 return(S);
-}
 
-return (0);
 }
