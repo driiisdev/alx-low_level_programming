@@ -11,8 +11,10 @@
 
 char *create_array(unsigned int size, char c)
 {
+char *A;
 unsigned int i = 0;
-char *A = (char *)malloc(size * sizeof(char));
+
+A = (char *)malloc(size * sizeof(char));
 
 if (size == 0)
 {
@@ -20,16 +22,21 @@ return (NULL);
 }
 else
 {
-
+if (A == NULL)
+{
+return (NULL);
+}
+else
+{
 while (i < size)
 {
 A[i] = c;
 i++;
 }
-
 }
 
 A[i] = '\0';
 return (A);
+}
 
 }
