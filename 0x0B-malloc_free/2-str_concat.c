@@ -15,33 +15,22 @@ int j = 0;
 int len1 = 0;
 int len2 = 0;
 
-if (s1 == NULL)
+while (s1 && s1[len1])
 {
-s1 = "";
-}
-else
-{
-while (s1[len1] != '\0')
-{
-len1++;
-}
 len1++;
 }
 
-if (s2 == NULL)
-{
-s2 = "";
-}
-else
-{
-while (s2[len2] != '\0')
+while (s2 && s2[len2])
 {
 len2++;
 }
-len2 ++;
-}
 
-S = (char *)malloc(sizeof(char) * (len1 + len2));
+S = (char *)malloc(sizeof(char) * (len1 + len2 + 1));
+
+if (S == NULL)
+{
+return NULL;
+}
 
 while (i < len1)
 {
@@ -55,6 +44,6 @@ S[i + j] = s2[i + j];
 j++;
 }
 
+S[i + j] = '\0';
 return(S);
-
 }
