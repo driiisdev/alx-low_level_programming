@@ -10,18 +10,18 @@
 char *str_concat(char *s1, char *s2)
 {
 char *S;
-int T;
 int i = 0;
 int j = 0;
 int len1 = 0;
 int len2 = 0;
+int T;
 
-while (s1 != NULL && s1[len1] != '\0')
+while (s1 && s1[len1])
 {
 len1++;
 }
 
-while (s2 != NULL && s2[len2] != '\0')
+while (s2 && s2[len2])
 {
 len2++;
 }
@@ -34,19 +34,20 @@ if (S == NULL)
 return (NULL);
 }
 
-while (i < len1)
+while (s1 && i < len1)
 {
 S[i] = s1[i];
 i++;
 }
 
-while (j < len2)
+while (s2 && i < T)
 {
-S[i + j] = s2[i + j];
+S[i] = s2[j];
+i++;
 j++;
 }
 
-S[i + j] = '\0';
+S[i] = '\0';
 
 return (S);
 }
