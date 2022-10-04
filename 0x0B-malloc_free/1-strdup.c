@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strdup - Duplicate a string using malloc
+ * _strdup - Duplicate a string given as parameter using malloc
  * @str: string to duplicate
  *
  * Return: NULL, if str = NULL
@@ -9,6 +9,7 @@
 char *_strdup(char *str)
 {
 char *S;
+int i = 0;
 int size = 0;
 
 if (str == NULL)
@@ -31,7 +32,7 @@ return (NULL);
 }
 else
 {
-for (int i = 0; i < size; i++)
+for (i = 0; i < size; i++)
 {
 S = str[i];
 }
