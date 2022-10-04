@@ -34,7 +34,7 @@ else
 {
 for (i = 0; i < size; i++)
 {
-S = str[i];
+S = *str + i;
 }
 return (S);
 }
