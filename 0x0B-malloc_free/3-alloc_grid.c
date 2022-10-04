@@ -33,15 +33,11 @@ for (c = 0; c <= width; c++)
 free(grid[c]);
 }
 free(grid);
-return (NULL);
-}
-}
-
-for (r = 0; r < height; r++)
-{
 for (c = 0; c < width; c++)
 {
 grid[r][c] = 0;
+}
+return (NULL);
 }
 }
 
