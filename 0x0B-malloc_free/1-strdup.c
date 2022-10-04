@@ -32,9 +32,10 @@ return (NULL);
 }
 else
 {
-for (i = 0; i < size; i++)
+while (str[i] != '\0')
 {
 S[i] = str[i];
+i++;
 }
 return (S);
 }
