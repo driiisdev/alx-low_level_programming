@@ -36,8 +36,6 @@ for (i = 0; i < size; i++)
 {
 S[i] = str[i];
 }
-
-S[i] = '\0';
 return (S);
 }
 
