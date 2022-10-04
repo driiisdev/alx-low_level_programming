@@ -1,0 +1,1 @@
+# memory allocation (malloc) and deallocation (free) in C
