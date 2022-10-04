@@ -27,7 +27,7 @@ len2++;
 }
 
 T = len1 + len2 + 1;
-S = malloc(sizeof(char) * (T));
+S = (char *)malloc(sizeof(char) * (T));
 
 if (S == NULL)
 {
