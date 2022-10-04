@@ -15,12 +15,12 @@ int j = 0;
 int len1 = 0;
 int len2 = 0;
 
-while (s1[len1] != '\0')
+while (s1[len1] != NULL)
 {
 len1++;
 }
 
-while (s2[len2] != '\0')
+while (s2[len2] != NULL)
 {
 len2++;
 }
