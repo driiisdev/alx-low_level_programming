@@ -17,7 +17,7 @@ int len2 = 0;
 
 if (s1 == NULL)
 {
-    return(len1 = 0);
+    len1 = 0;
 }
 else
 {
@@ -27,7 +27,7 @@ for (len1 = 0; s1[len1]; len1++)
 
 if (s2 == NULL)
 {
-    return(len2 = 0);
+    len2 = 0;
 }
 else
 {
