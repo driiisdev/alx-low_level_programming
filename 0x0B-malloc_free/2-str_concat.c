@@ -43,13 +43,13 @@ len2 ++;
 
 S = (char *)malloc(sizeof(char) * (len1 + len2));
 
-while (s1[i] != '\0')
+while (i < len1)
 {
 S[i] = s1[i];
 i++;
 }
 
-while (s2[j] != '\0')
+while (j < len2)
 {
 S[i + j] = s2[i + j];
 j++;
