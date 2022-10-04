@@ -22,7 +22,7 @@ s1 = "";
 }
 else
 {
-while (s1 != '\0')
+while (s1[len1] != '\0')
 {
 len1++;
 }
@@ -35,26 +35,26 @@ s2 = "";
 }
 else
 {
-while (s2 != '\0')
+while (s2[len2] != '\0')
 {
 len2++;
 }
 len2 ++;
 }
 
-while (s1 != '\0')
+while (s1[i] != '\0')
 {
-s3 = s1[i];
+s3[i] = s1[i];
 i++;
 }
 
-while (s1 != '\0')
+while (s2[j] != '\0')
 {
-s3 = s1[i + j];
+s3 = s2[i + j];
 j++;
 }
 
-if (s3 == '\0')
+if (s3 == NULL)
 {
 return (NULL);
 }
