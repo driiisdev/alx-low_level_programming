@@ -18,13 +18,12 @@ if (size == 0)
 {
 return (NULL);
 }
-else
-{
+
 while (i < size)
 {
 A[i] = c;
 i++;
-}
+
 A[i] = '\0';
 return (A);
 }
