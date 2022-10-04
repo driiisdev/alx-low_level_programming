@@ -28,10 +28,12 @@ grid[r] = (int *)malloc(sizeof(int) * width);
 
 if (grid[r] == NULL)
 {
-for (c = 0; c < width; c++)
+for (c = 0; c <= width; c++)
+{
 free(grid[c]);
+}
 free(grid);
-grid = NULL;
+return (NULL);
 }
 }
 
