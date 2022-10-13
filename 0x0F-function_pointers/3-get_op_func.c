@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * get_op_func - selects the correct operation function asked by user
+ * get_op_func - selects the correct operation function
  * @s: the operator given by the user
  *
  * Return: pointer to the correct function
@@ -24,10 +24,10 @@ while (ops[i].op)
 {
 if (ops[i].op[0] == s[0])
 {
-return (ops[i].f);
+break;
 }
 i++;
 }
 
-return (NULL);
+return (ops[i].f);
 }
