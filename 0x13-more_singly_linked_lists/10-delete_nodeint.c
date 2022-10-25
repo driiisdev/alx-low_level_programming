@@ -29,7 +29,7 @@ return (1);
 while (i < index - 1)
 {
 if (!tmp || !(tmp->next))
-    return (-1);
+return (-1);
 tmp = tmp->next;
 i++;
 }
