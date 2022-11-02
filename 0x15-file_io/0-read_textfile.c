@@ -32,6 +32,7 @@ if (byt_writ == -1)
 free(buffer);
 return (0);
 }
+
 close(fd);
 return (byt_read);
 }
