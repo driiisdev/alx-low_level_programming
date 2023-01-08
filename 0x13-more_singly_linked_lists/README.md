@@ -1,1 +1,1 @@
-# more singly linked lists in C
+# Data Structure - more singly linked lists in C

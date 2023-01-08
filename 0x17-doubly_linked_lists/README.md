@@ -1,1 +1,1 @@
-# Doubly Linked Lists in C
+# Data Structure - Doubly Linked Lists in C
